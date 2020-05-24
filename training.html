@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lastest News</title>
+	<!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/traning.css" rel="stylesheet">
+</head>
+<body>
+<!-- Header -->
+<header class="bg-primary text-center py-5 mb-4">
+  <div class="container1">
+    <h1 class="font-weight-light text-white">Traning Videos</h1>
+  </div>
+</header>
+
+<!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Panacea</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="HOME PAGE .html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutmem.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <!-- Team Member 1 -->
+    <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+        
+        <iframe width="550" height="350" src="https://www.youtube.com/embed/fD2ylEbOwjY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-10">CNN news Channel</h5>
+          
+          
+       
+    </div>
+    <!-- Team Member 2 -->
+    
+      
+     <iframe width="550" height="350" src="https://www.youtube.com/embed/9nyLDfWdNEc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">Dilli Aaj Tak</h5>
+         
+        
+      </div>
+    </div>
+  </div>
+    <br>
+    <!-- Team Member 3 -->
+   
+      <div class="col-xl-3 col-md-6 mb-4">
+      <div class="card border-0 shadow">
+       <iframe width="550" height="350" src="https://www.youtube.com/embed/yE4yj26Lg3Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">NBC News</h5>
+          
+      </div>
+    
+    
+    <!-- Team Member 4 -->
+    
+      
+        <iframe width="550" height="350" src="https://www.youtube.com/embed/PKJKUG3snnw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <div class="card-body text-center">
+          <h5 class="card-title mb-0">News 18 Kannada</h5>
+          
+        
+      </div>
+    </div>
+  </div>
+
+  <!-- /.row -->
+
+</div>
+<!-- /.container -->
+<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "f0930012-c67e-48b8-a3cc-0eb26507d44e", // The ID of this integration.
+      region: "us-south", // The region your integration is hosted in.
+      serviceInstanceID: "c786c065-03d7-42cf-b7b9-df8e9ab4c9ce", // The ID of your service instance.
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
+
+</body>
+</html>
